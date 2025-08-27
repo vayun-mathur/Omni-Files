@@ -1,0 +1,1 @@
+A powerful file explorer app that can edit many different types of files
