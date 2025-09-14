@@ -81,16 +81,6 @@
                 <data android:mimeType="video/*" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".CreateDocumentActivity"
-            android:exported="true"
-            android:theme="@style/Theme.Files">
-            <intent-filter tools:ignore="AppLinkUrlError">
-                <action android:name="android.intent.action.CREATE_DOCUMENT" />
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
